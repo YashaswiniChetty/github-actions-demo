@@ -18,4 +18,4 @@ jobs:
       Greeting: Hello
     steps:
       - name: Say Hello to saibaba multi workflow variable
-        run: echo $Greeting, world $name ${{var.PROJECT_ID}} !
+        run: echo $Greeting, world $name ${{vars.PROJECT_ID}} !
